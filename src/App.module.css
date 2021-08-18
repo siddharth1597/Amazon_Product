@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.App {
+  background-color: white;
+}
+
+footer {
+  background-color: rgb(33, 33, 46);
+  padding: 20px 30px;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+main > section {
+  display: flex;
+  flex-direction: row;
+  padding: 30px;
+  padding: 50px;
+  margin: 0 100px;
+}
+
+.Left {
+  width: 50%;
+}
+
+.Right {
+  width: 50%;
+}
+
+@media screen and (max-width: 900px) {
+  main > section {
+    display: block;
+  }
+
+  .Left {
+    width: 100%;
+  }
+
+  .Right {
+    width: 100%;
+  }
+}

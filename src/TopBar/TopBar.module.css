@@ -1,0 +1,11 @@
+nav {
+  background-color: rgb(33, 33, 46);
+  padding: 20px 30px 10px;
+  text-align: center;
+  position: sticky;
+  top: 0;
+}
+
+.Logo {
+  width: 90px;
+}

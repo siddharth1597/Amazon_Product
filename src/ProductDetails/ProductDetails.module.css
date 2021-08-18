@@ -1,0 +1,82 @@
+.ProductDetails {
+  width: 100%;
+}
+
+.ProductDetails h1 {
+  font-size: 44px;
+  font-weight: bold;
+  margin: 20px auto;
+  letter-spacing: .5px;
+  line-height: 1.4;
+}
+
+.ProductDetails > p {
+  font-size: 16px;
+  color: rgb(63, 61, 61);
+  letter-spacing: .5px;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+.Select_color {
+  margin-top: 40px;
+}
+
+.Select_color h3 {
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: .5px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.Diff_watches {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+}
+
+.Diff_watches img {
+  width: 80px;
+  outline: 1px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.Features {
+  display: flex;
+  margin-right: 20px;
+}
+
+.Features_items {
+  background-color: rgb(218, 218, 218);
+  color: black;
+  font-weight: bolder;
+  padding: 10px 30px;
+  margin-right: 20px;
+  border-radius: 4px;
+  border: 0;
+  cursor: pointer;
+}
+
+.Buynow {
+  background-color: rgb(8, 104, 104);
+  color: white;
+  font-weight: bold;
+  padding: 15px 30px;
+  margin-right: 20px;
+  border-radius: 4px;
+  border: 0;
+  cursor: pointer;
+  margin-top: 30px;
+}
+
+.Selected_Watch {
+  border: 2px solid teal;
+  border-radius: 8px;
+}
+
+.Select_feature {
+  background-color: gray;
+  color: white;
+}
