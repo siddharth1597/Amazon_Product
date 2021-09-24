@@ -2,7 +2,7 @@ import React from 'react';
 import classes from './ProductPreview.module.css';
 
 const ProductPreview = (props) => {
-  
+  {* Product View *}
   const hours = new Date().getHours() > 9 ? new Date().getHours() : '0' + new Date().getHours();
   const minutes = new Date().getMinutes() > 9 ? new Date().getMinutes() : '0' + new Date().getMinutes();
 
